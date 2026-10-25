@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="pt"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Paidsmith</title><meta name="robots" content="noindex">
+<script>
+// Qualquer pessoa que chegue à raiz (ex.: link de confirmação de email a que se perdeu o "/paidsmith/")
+// vai para a app, mantendo o código de entrada (#access_token=...) e os parâmetros.
+location.replace('/paidsmith/' + location.search + location.hash);
+</script>
+<meta http-equiv="refresh" content="0; url=/paidsmith/">
+</head><body style="font-family:system-ui,sans-serif;background:#0B1020;color:#EEF0F7;text-align:center;padding:40px">
+<p>A abrir a Paidsmith… <a href="/paidsmith/" style="color:#E7B54E">Toca aqui se não abrir.</a></p>
+</body></html>
